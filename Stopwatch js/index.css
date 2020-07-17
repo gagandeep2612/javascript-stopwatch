@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(41, 40, 40);
+}
+.main {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.controls {
+  margin: 50px;
+}
+button {
+  padding: 8px;
+  width: 85px;
+  margin: 10px;
+  font-weight: 600;
+  color: rgb(240, 162, 110);
+  border-radius: 6px;
+  background-color: rgb(44, 46, 44);
+  transition: 0.4;
+}
+button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(8, 42, 82);
+}
+#abcd {
+  font-size: 100px;
+  color: aliceblue;
+  letter-spacing: 15px;
+}
+ul {
+  list-style: none;
+}
+.laps {
+  position: relative;
+  text-align: center;
+  height: 200px;
+  color: aliceblue;
+  font-size: 30px;
+}
